@@ -4,7 +4,10 @@ import java.io.File;
 
 public class MeasureHeartRateUtility {
     public static int ComputeHeartRate(File videoFile) {
-        // TODO
+        if(videoFile.exists()) {
+            // TODO
+        }
+
         return 0;
     }
 }
